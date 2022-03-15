@@ -1,0 +1,208 @@
+/* header */
+
+header,
+header>div,
+.top-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+}
+
+header>div:last-child,
+.top-right {
+  justify-content: flex-end;
+}
+
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+
+  /* Header */
+  .trigger.menu1 {
+    display: block;
+  }
+
+  .top-right {
+    display: none;
+    background-color: rgb(207, 180, 180);
+    border-top: 1px solid #941414;
+    position: absolute;
+    top: 62px;
+    left: 0px;
+    right: 0px;
+  }
+
+  .top-right>.close {
+    display: block;
+  }
+
+  .top-right>a {
+    text-align: center;
+  }
+
+
+
+  /* Main Atas */
+  .carousel .carousel-text h1 {
+    font-size: 70px;
+  }
+
+  .carousel .carousel-tex p {
+    font-size: 25px;
+  }
+
+  /* Main Atas */
+
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .lesson-icon img {
+    width: 50%;
+  }
+
+  /* Bagian Formnya Gan */
+
+  /* Bagian Formnya Gan */
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+  /* Main Atas */
+  .carousel .carousel-text h1 {
+    font-size: 35px;
+    line-height: 32px;
+  }
+
+  .carousel .carousel-text p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .btn {
+    margin-bottom: 10px;
+  }
+
+  /* Main Atas */
+
+  .lesson {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+
+
+  .btn.btn-white {
+    background: #fff;
+    border: 1px solid #000;
+    color: #000;
+  }
+
+  .btn.btn-white:hover {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+  }
+
+  .btn.btn-white.btn-outline-white {
+    border-color: #000;
+    background: none;
+    border-width: 1px;
+    color: #000;
+  }
+
+  .btn.btn-white.btn-outline-white:hover,
+  .btn.btn-white.btn-outline-white:focus,
+  .btn.btn-white.btn-outline-white:active {
+    background: #9ACD32;
+    border-color: #9ACD32;
+    color: #000;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    display: block;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .lesson-icon img {
+    width: 50%;
+  }
+
+  /*  Bagian Formnya Gan */
+  .promogan h2 {
+    font-size: 32px;
+  }
+
+  .promogan h3 {
+    font-size: 15px;
+  }
+
+  .kets {
+    font-size: 12.5px;
+    margin: auto 20px;
+  }
+
+  .menu {
+    margin: 20px 25px;
+  }
+  
+  .choose-menu {
+    font-size: 14px;
+  }
+
+  .menuu {
+    width: 85%;
+  }
+
+  .keterangan {
+    font-size: 15px;
+  }
+
+  .isi {
+    width: 85%;
+  }
+
+  .menu a {
+    width: 50%;
+  }
+/* Promo Ends Here... */
+
+}
