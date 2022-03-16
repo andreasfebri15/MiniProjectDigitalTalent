@@ -15,7 +15,7 @@ header > div:last-child,
 }
 
 /* Untuk Tablet */
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1500px) {
   /* Header */
   .trigger.menu1 {
     display: block;
@@ -72,11 +72,34 @@ header > div:last-child,
   /* Bagian Formnya Gan */
 
   /* Bagian Footer  */
-  /* footer {
-    text-align: center;
-  } */
+  footer {
+    width: 100%;
+  }
 
-  /* Bagian Footer  */
+  .footer-list-layanan {
+    width: 50%;
+  }
+
+  .footer-list-layanan p {
+    font-size: 15px;
+  }
+
+  .footer-list-kontak {
+    width: 50%;
+  }
+  .footer-list-kontak .footer-paragraf {
+    font-size: 15px;
+  }
+
+  .footer-list-alamat {
+    width: 50%;
+  }
+
+  .footer-list-alamat .footer-paragraf {
+    font-size: 15px;
+  }
+
+  /* Bagian Footer */
 }
 
 /* Untuk Smartphone */
@@ -99,11 +122,6 @@ header > div:last-child,
   /* Main Atas */
 
   .lesson {
-    width: 100%;
-  }
-
-  footer {
-    text-align: center;
     width: 100%;
   }
 
@@ -207,8 +225,45 @@ header > div:last-child,
 
   /* bagian footer */
 
+  footer {
+    width: 100%;
+  }
+
+  .footer-list-layanan {
+    width: 50%;
+  }
+
+  .footer-list-layanan p {
+    font-size: 8px;
+  }
+
+  .section-title-layanan {
+    font-size: 15px;
+  }
+
+  .footer-list-kontak {
+    width: 50%;
+  }
+  .footer-list-kontak .footer-paragraf {
+    font-size: 8px;
+  }
+
   .section-title {
     font-size: 15px;
+  }
+
+  .footer-list-kontak span {
+    font-size: 8px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .footer-list-alamat {
+    width: 50%;
+  }
+
+  .footer-list-alamat .footer-paragraf {
+    font-size: 8px;
   }
 
   /* END bagian footer */

@@ -479,19 +479,17 @@ header + div {
 footer {
   background-color: rgb(12, 22, 22);
   color: rgb(241, 241, 241);
-  height: 200px;
+  height: auto;
   width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
 /* footer list alamat  */
 .footer-list-alamat {
-  float: right;
-  padding-right: 10%;
-  padding-left: 10%;
+  /* float: left; */
+  padding-right: 8%;
+  padding-left: 8%;
 }
 
 .section-title {
@@ -504,7 +502,7 @@ footer {
   list-style: none;
   text-align: center;
   padding-bottom: 5px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 /* footer list alamat  */
@@ -512,10 +510,9 @@ footer {
 /* footer list kontak  */
 
 .footer-list-kontak {
-  float: right;
-  padding-right: 10%;
-  padding-left: 10%;
-  font-size: 22px;
+  /* float: left; */
+  padding-right: 8%;
+  padding-left: 8%;
 }
 
 .section-title-2 {
@@ -524,11 +521,13 @@ footer {
   text-align: center;
   display: block;
   padding-right: 30px;
+  font-size: 22px;
 }
 
 .footer-list-kontak .footer-paragraf {
   text-align: center;
   padding-bottom: 5px;
+  font-size: 20px;
 }
 
 .footer-paragraf span {
@@ -547,15 +546,26 @@ footer {
 /* footer list layanan */
 
 .footer-list-layanan {
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size: 22px;
-  float: left;
+  padding-left: 8%;
+  padding-right: 8%;
+
+  /* float: left; */
 }
 
 .section-title-layanan {
   font-family: "Courier New", Courier, monospace;
   text-align: center;
+  font-size: 22px;
+}
+
+.footer-list-layanan p {
+  font-size: 20px;
+}
+
+.bebas {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
 }
 
 /* .footer-list-layanan p {
