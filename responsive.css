@@ -1,7 +1,7 @@
 /* header */
 
 header,
-header>div,
+header > div,
 .top-right {
   display: flex;
   flex-direction: row;
@@ -9,15 +9,13 @@ header>div,
   flex-grow: 1;
 }
 
-header>div:last-child,
+header > div:last-child,
 .top-right {
   justify-content: flex-end;
 }
 
-
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-
   /* Header */
   .trigger.menu1 {
     display: block;
@@ -33,15 +31,13 @@ header>div:last-child,
     right: 0px;
   }
 
-  .top-right>.close {
+  .top-right > .close {
     display: block;
   }
 
-  .top-right>a {
+  .top-right > a {
     text-align: center;
   }
-
-
 
   /* Main Atas */
   .carousel .carousel-text h1 {
@@ -76,15 +72,15 @@ header>div:last-child,
   /* Bagian Formnya Gan */
 
   /* Bagian Footer  */
+  /* footer {
+    text-align: center;
+  } */
 
   /* Bagian Footer  */
-
-
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-
   /* Main Atas */
   .carousel .carousel-text h1 {
     font-size: 35px;
@@ -108,9 +104,8 @@ header>div:last-child,
 
   footer {
     text-align: center;
+    width: 100%;
   }
-
-
 
   .btn.btn-white {
     background: #fff;
@@ -134,8 +129,8 @@ header>div:last-child,
   .btn.btn-white.btn-outline-white:hover,
   .btn.btn-white.btn-outline-white:focus,
   .btn.btn-white.btn-outline-white:active {
-    background: #9ACD32;
-    border-color: #9ACD32;
+    background: #9acd32;
+    border-color: #9acd32;
     color: #000;
   }
 
@@ -188,7 +183,7 @@ header>div:last-child,
   .menu {
     margin: 20px 25px;
   }
-  
+
   .choose-menu {
     font-size: 14px;
   }
@@ -208,6 +203,13 @@ header>div:last-child,
   .menu a {
     width: 50%;
   }
-/* Promo Ends Here... */
+  /* Promo Ends Here... */
 
+  /* bagian footer */
+
+  .section-title {
+    font-size: 15px;
+  }
+
+  /* END bagian footer */
 }

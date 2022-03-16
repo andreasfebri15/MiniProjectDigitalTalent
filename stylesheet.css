@@ -4,8 +4,8 @@ body {
 }
 
 .container {
-    width: 100%;
-    max-width:1920px;
+  width: 100%;
+  max-width: 1920px;
 }
 
 /* Header  */
@@ -477,40 +477,37 @@ header + div {
 /* Footer  */
 
 footer {
-  background-color: darkslategray;
+  background-color: rgb(12, 22, 22);
   color: rgb(241, 241, 241);
   height: 200px;
+  width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 40px;
   padding-right: 40px;
-  
-}
-
-.footer-logo {
-  font-size: 32px;
-  float: left;
-  padding-bottom: 50px;
 }
 
 /* footer list alamat  */
 .footer-list-alamat {
   float: right;
-  padding-right: 60px;
-  font-size: 18px;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .section-title {
-  padding-left: 20px;
   font-family: "Courier New", Courier, monospace;
   text-align: center;
+  font-size: 22px;
 }
 
-.footer-list-alamat li {
+.footer-list-alamat .footer-paragraf {
   list-style: none;
-
+  text-align: center;
   padding-bottom: 5px;
+  font-size: 22px;
 }
+
+/* footer list alamat  */
 
 /* footer list kontak  */
 
@@ -518,62 +515,52 @@ footer {
   float: right;
   padding-right: 10%;
   padding-left: 10%;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .section-title-2 {
   padding-left: 20px;
   font-family: "Courier New", Courier, monospace;
   text-align: center;
+  display: block;
+  padding-right: 30px;
 }
 
-.footer-list-kontak li {
-  list-style: none;
+.footer-list-kontak .footer-paragraf {
+  text-align: center;
   padding-bottom: 5px;
 }
 
-/* .sosial-media {
-   padding-top: 10px;
-    display: flex;
+.footer-paragraf span {
+  font-size: 30px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-left: 10px;
 }
 
-.facebook {
-    color: aqua;
-    padding-right: 22%;
-    padding-left: ;
-    font-size: 30px;
+.email {
+  padding-bottom: -20px;
 }
 
-.twitter {
-    color:aqua;
-    font-size: 30px;
-    padding-right: 10px;
-    padding-top: 1px;
-    
-} */
+/* END Footer List Kontak */
 
-/* .instgram {
-    color: #FF4500;
-    font-size: 27px;
-    padding-right: 10px;
-} */
+/* footer list layanan */
 
-/* css footer list menu */
-
-.footer-list-menu {
+.footer-list-layanan {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 22px;
   float: left;
-  padding: 40px 20px 40 px 20px;
-
-  font-size: 18px;
 }
 
-.section-list-menu {
-  padding-left: 20px;
+.section-title-layanan {
   font-family: "Courier New", Courier, monospace;
   text-align: center;
 }
 
-.footer-list-menu li {
-  list-style: none;
-  padding-bottom: 5px;
-}
+/* .footer-list-layanan p {
+ 
+  text-align: center;
+} */
+
+/* End Footer list menu */
